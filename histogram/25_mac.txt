@@ -1,0 +1,12 @@
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -78dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9
+c8:00:84:84:d5:3d -79dBm cell9

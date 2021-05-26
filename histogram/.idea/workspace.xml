@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85b6e0f7-4595-440e-92cc-0db3a0d8a607" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sfYr6qfmUpR0bIr9ty3LZmHzvo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="myPyQtBackend" value="PySide" />
+  </component>
+  <component name="RunManager" selected="Python.histogram">
+    <configuration name="create_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="histogram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_feature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_feature_new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="histogram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_feature_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="histogram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.histogram" />
+        <item itemvalue="Python.create_feature_new" />
+        <item itemvalue="Python.create_feature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85b6e0f7-4595-440e-92cc-0db3a0d8a607" name="Default Changelist" comment="" />
+      <created>1621265306076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621265306076</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="738" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621716413635">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="738" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1621716413635" />
+    <state x="522" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622047423791">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="522" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.920@0.0.1707.920" timestamp="1622047423791" />
+    <state x="584" y="143" key="FileChooserDialogImpl" timestamp="1621880889023">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="584" y="143" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1621880889023" />
+    <state width="1680" height="224" key="GridCell.Tab.0.bottom" timestamp="1622054376456">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1510" height="100" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621786887038" />
+    <state width="1680" height="224" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1622054376456" />
+    <state width="2022" height="345" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1621871255486" />
+    <state width="1680" height="224" key="GridCell.Tab.0.center" timestamp="1622054376456">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1510" height="100" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621786887038" />
+    <state width="1680" height="224" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1622054376456" />
+    <state width="2022" height="345" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1621871255486" />
+    <state width="1680" height="224" key="GridCell.Tab.0.left" timestamp="1622054376456">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1510" height="100" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621786887038" />
+    <state width="1680" height="224" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1622054376456" />
+    <state width="2022" height="345" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1621871255486" />
+    <state width="1680" height="224" key="GridCell.Tab.0.right" timestamp="1622054376456">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1510" height="100" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621786887038" />
+    <state width="1680" height="224" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1622054376456" />
+    <state width="2022" height="345" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1621871255486" />
+    <state width="1680" height="273" key="GridCell.Tab.1.bottom" timestamp="1622048045334">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1680" height="273" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1622048045334" />
+    <state width="2022" height="350" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1621758049718" />
+    <state width="1680" height="273" key="GridCell.Tab.1.center" timestamp="1622048045334">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1680" height="273" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1622048045334" />
+    <state width="2022" height="350" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1621758049718" />
+    <state width="1680" height="273" key="GridCell.Tab.1.left" timestamp="1622048045334">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1680" height="273" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1622048045334" />
+    <state width="2022" height="350" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1621758049718" />
+    <state width="1680" height="273" key="GridCell.Tab.1.right" timestamp="1622048045334">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1680" height="273" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1622048045334" />
+    <state width="2022" height="350" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1621758049718" />
+    <state x="239" y="19" key="SettingsEditor" timestamp="1621881133358">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1621881133358" />
+    <state x="435" y="219" key="com.intellij.ide.util.TipDialog" timestamp="1621874631644">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621763088524" />
+    <state x="435" y="219" key="com.intellij.ide.util.TipDialog/0.0.1707.920@0.0.1707.920" timestamp="1621874631644" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/histogram.py</url>
+          <line>413</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/create_feature_new.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="pmf_per_room[78]" />
+        <watch expression="pmf_per_room" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
