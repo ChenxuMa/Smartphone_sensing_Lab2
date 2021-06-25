@@ -38,7 +38,7 @@ public class Total_service extends AppCompatActivity {
     private List parallel=new ArrayList<>();
     private List serial_list=new ArrayList<>();
     private List initial_prior=new ArrayList<>();
-    private Integer feature_number=28;
+    private Integer feature_number=12;
     private Button online_test;
     private String[] mac_list;
     private String final_predict_result;
@@ -46,7 +46,7 @@ public class Total_service extends AppCompatActivity {
     private FileOutputStream fos=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        String mac_string="c8:54:4b:93:d1:01, ac:22:05:8b:d2:59, ae:22:15:8b:d2:59, ca:54:4b:b3:d1:02, c8:54:4b:93:d1:02, ac:22:05:8b:d2:13, ca:54:4b:b2:43:62, c8:54:4b:92:43:62, c8:54:4b:92:43:61, 44:fe:3b:74:48:87, 50:7e:5d:7c:b3:32, 98:0d:67:3e:39:61, 9c:6f:52:15:d2:79, ac:22:05:16:f1:d5, ae:22:15:16:f1:d5, 5c:a8:6a:0a:d1:2c, 00:5f:67:78:1e:1e, f0:9f:c2:fd:23:9d, ac:22:05:16:f1:c7, 9c:6f:52:15:d2:7a, b4:75:0e:5d:b0:d5, 8a:ac:c0:9e:6a:a1, 88:ac:c0:be:6a:a1, c8:00:84:84:d5:3a, c8:00:84:84:d5:3e, c8:00:84:84:d5:3d, 8a:ac:c0:be:6a:a1, 8a:ac:c0:ae:6a:a1";
+        String mac_string="4c:1b:86:56:7a:6f, ac:22:05:8b:d2:13, ac:22:05:8b:d2:59, 44:fe:3b:74:48:87, c8:54:4b:92:43:62, b4:75:0e:5d:b0:d5, ac:22:05:16:f1:d5, c0:25:06:92:71:5f, c8:54:4b:93:d1:02, c8:54:4b:93:d1:01, 50:7e:5d:7c:b3:32, c8:54:4b:92:43:61";
         mac_list=mac_string.split(", ");
         for (int i=0;i<mac_list.length;i++){
             wifi_name_list.add(mac_list[i]);
@@ -251,8 +251,6 @@ public class Total_service extends AppCompatActivity {
         if(i==1){
             final_predict_result="cell"+predict_result(mac_filter,wifi_name_list);
             predict_room.setText(final_predict_result);
-
-
         }
         else if(i==0){
             predict_result_serial(mac_filter, wifi_name_list);
@@ -428,7 +426,7 @@ public class Total_service extends AppCompatActivity {
         }
 
          */
-        String mac_string="c8:54:4b:93:d1:01, ac:22:05:8b:d2:59, ae:22:15:8b:d2:59, ca:54:4b:b3:d1:02, c8:54:4b:93:d1:02, ac:22:05:8b:d2:13, ca:54:4b:b2:43:62, c8:54:4b:92:43:62, c8:54:4b:92:43:61, 44:fe:3b:74:48:87, 50:7e:5d:7c:b3:32, 98:0d:67:3e:39:61, 9c:6f:52:15:d2:79, ac:22:05:16:f1:d5, ae:22:15:16:f1:d5, 5c:a8:6a:0a:d1:2c, 00:5f:67:78:1e:1e, f0:9f:c2:fd:23:9d, ac:22:05:16:f1:c7, 9c:6f:52:15:d2:7a, b4:75:0e:5d:b0:d5, 8a:ac:c0:9e:6a:a1, 88:ac:c0:be:6a:a1, c8:00:84:84:d5:3a, c8:00:84:84:d5:3e, c8:00:84:84:d5:3d, 8a:ac:c0:be:6a:a1, 8a:ac:c0:ae:6a:a1";
+        String mac_string="4c:1b:86:56:7a:6f, ac:22:05:8b:d2:13, ac:22:05:8b:d2:59, 44:fe:3b:74:48:87, c8:54:4b:92:43:62, b4:75:0e:5d:b0:d5, ac:22:05:16:f1:d5, c0:25:06:92:71:5f, c8:54:4b:93:d1:02, c8:54:4b:93:d1:01, 50:7e:5d:7c:b3:32, c8:54:4b:92:43:61";
         String[] mac_list=mac_string.split(", ");
         int count=0;
         for(int i=0;i<parallel.size();i++){
@@ -594,8 +592,8 @@ public class Total_service extends AppCompatActivity {
                     double compute_threshold=abs((max_prob-probability))/max_prob;
                     if(compute_threshold>0.65){
                         ismax=true;
-                        break;
 
+                        break;
                     }else{
                         ismax=false;
                     }
@@ -618,10 +616,14 @@ public class Total_service extends AppCompatActivity {
             Parallel item=(Parallel)parallel.get(i);
             if(item.termination_mark==1){
                 finish=true;
-            }else{
+            }
+            /*
+            else{
                 finish=false;
                 break;
             }
+
+             */
         }
         /*
         for(int i=0;i<model_list.length;i++){

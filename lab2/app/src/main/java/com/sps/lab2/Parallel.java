@@ -15,9 +15,9 @@ public class Parallel
 {
     //每一个cell对应一个大小为256的概率列表
     public static final Integer cell_size = 100;
-    public static final Integer numCells = 9;
+    public static final Integer numCells = 10;
     public List<Data> dataset = null;
-    public Double[] priorProb=new Double[9];
+    public Double[] priorProb=new Double[10];
     public int pressCount;
     public int termination_mark;
     public String mac_address;
